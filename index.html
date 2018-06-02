@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Image from DOM element</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main id="root">
+    <h1>todos</h1>
+    <section class="todoapp">
+        <header class="header">
+            <input class="new-todo" placeholder="What needs to be done?" autofocus>
+        </header>
+        <section class="main">
+            <input id="toggle-all" class="toggle-all" type="checkbox">
+            <ul class="todo-list">
+                <li class="completed">
+                    <div class="view">
+                        <input class="toggle" type="checkbox" checked>
+                        <label>Include html2canvas library</label>
+                        <button class="destroy"></button>
+                    </div>
+                    <input class="edit" value="What next ?...">
+                </li>
+                <li>
+                    <div class="view">
+                        <input class="toggle" type="checkbox">
+                        <label>Generate image</label>
+                        <button class="destroy"></button>
+                    </div>
+                    <input class="edit" value="Rule the web">
+                </li>
+            </ul>
+        </section>
+        <footer class="footer">
+            <span class="todo-count"><strong>0</strong> item left</span>
+            <ul class="filters">
+                <li>
+                    <a class="selected" href="#/">All</a>
+                </li>
+                <li>
+                    <a href="#/active">Active</a>
+                </li>
+                <li>
+                    <a href="#/completed">Completed</a>
+                </li>
+            </ul>
+            <button class="clear-completed">Clear completed</button>
+        </footer>
+    </section>
+</main>
+<button id="btn-generate">Generate Image</button>
+<script src="html2canvas.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

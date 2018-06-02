@@ -1,0 +1,9 @@
+{
+  "name": "generate-image-js",
+  "version": "1.0.0",
+  "description": "Generate image img/png via javascript.",
+  "main": "index.js",
+  "author": "Vlad Morzhanov",
+  "license": "MIT",
+  "private": false
+}
