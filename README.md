@@ -12,10 +12,10 @@ Everything already installed. Run index.html in your browser and click `Generate
 
 ## Technologies
 
-* Javascript
-* CSS
-* HTML
-* html2canvas
+- <a href="https://developer.mozilla.org/bm/docs/Web/JavaScript">Javascript</a>
+- <a href="https://developer.mozilla.org/kab/docs/Web/CSS">CSS 3</a>
+- <a href="https://developer.mozilla.org/kab/docs/Web/HTML">HTML 5</a>
+- <a href="https://html2canvas.hertzen.com/">html2canvas</a>
 
 ## Author
 
