@@ -1,6 +1,6 @@
 # html2canvas-example
 
-<img src="https://i.imgur.com/iPQ5BYws.jpg"/>
+<img src="https://i.imgur.com/iPQ5BYw.jpg?1"/>
 
 This simple web application demonstrates how to export any DOM element as `image/png` file.
 
